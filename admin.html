@@ -845,9 +845,9 @@ tbody tr:hover{background:#fffaf6!important}
                 }, {merge: true});
             } else if (type === 'payment') {
                 p1 = db.collection('admin').doc('payment').set({
-                    bKash: document.getElementById('set-bkash').value,
-                    Nagad: document.getElementById('set-nagad').value,
-                    Rocket: document.getElementById('set-rocket').value
+                    bkash: document.getElementById('set-bkash').value,
+                    nagad: document.getElementById('set-nagad').value,
+                    rocket: document.getElementById('set-rocket').value
                 }, {merge: true});
             } else if (type === 'advanced') {
                 p1 = db.collection('settings').doc('general').set({
